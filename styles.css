@@ -1,0 +1,104 @@
+
+* {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    width: 80%;
+}
+body {
+    background-color: black;
+}
+h2#main-title {
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+span#sub-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#product-title,
+#product-count,
+#product-category,
+#search-bar{
+    margin: 10px 0px;
+    width: 100% !important;
+}
+#price-section{
+    display: flex;
+    gap: 10px;
+}
+.input-field {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 0.7s;
+    border: none;
+    outline: none;
+}
+.input-field:hover {
+    scale: 1.1;
+}
+.input-field:focus {
+    background-color: aliceblue;
+}
+#search-buttons{
+    display: flex;
+}
+#search-by-title-btn,
+#search-by-category-btn{
+    width: 50%;
+    /* height: 50px; */
+
+   
+}
+
+.button-primary {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 101, 192);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 5px;
+}
+.button-primary:hover {
+    scale: 0.9;
+}
+
+.data-table {
+    width: 100%;
+    text-align: center;
+}
+.data-table th {
+    font-size: small;
+    font-weight: 100;
+    padding: 2px;
+}
+.data-table tr {
+    font-size: small;
+    font-weight: 50;
+}
