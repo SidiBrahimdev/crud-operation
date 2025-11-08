@@ -1,0 +1,190 @@
+*{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 80%;
+}
+body{
+    /* background-color: cadetblue; */
+    background-color: black;
+}
+
+
+h2{
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto ;
+ 
+
+}
+.les{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.les input,
+.frist_input{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 0,7s;
+}
+.input1:hover{
+    scale: 1.1;
+}
+.input1:focus{
+    background-color: aliceblue;
+}
+.sw{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    margin: auto;
+    padding-top:17px;  
+    flex-wrap: wrap;
+}
+.input2{
+    display: flex;
+    padding: 10px; 
+    margin:10px;
+    transition: 0,5s;
+    color: black;
+}
+.input2:hover{
+    scale: 1.1;
+}
+.input2:focus{
+    background-color: aliceblue;
+}
+#total{
+    background-color: red;
+    padding: 2px 2px;
+}
+.de::before{
+    content: "total:";
+}
+.de:hover{
+    scale: 1.1;
+}
+
+.frf{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 101, 192);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+input{
+    border: none;
+    outline: none;
+}
+button{
+    border:none;
+    transition: 0,5s;
+
+}
+button:hover{
+    scale: .9;
+}
+.out{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frf{
+    display: flex;
+    padding-left: 20px;
+   
+}
+table{
+    width: 80%;
+    text-align: center;
+    /* border-spacing: 0px;
+    border:solid 3px blueviolet;   */
+}
+/* th{
+    border:solid 3px blueviolet;
+
+} */
+/* table td{
+    color: greenyellow;
+    font-weight: 700;
+    border:solid 3px blueviolet;
+   
+} */
+/* table thead td{
+    background-color: rgb(242, 255, 0);
+    border-style: dashed;
+} */
+button{
+    background-color: blue;
+    border-radius: 20px;
+    margin: 3px;
+}
+@media(max-width:622px){
+    .contannair{
+        width: 619px;
+    }
+    .DELETE{
+        font-size: small;
+        font-weight: 50; 
+        text-transform: lowercase;
+        
+
+    }
+    .DELETE{
+        font-size: small;
+        font-weight: 50; 
+        text-transform: lowercase;
+
+}
+th{
+    font-size: small;
+    font-weight: 100;
+    padding: 2px;
+    text-transform: lowercase;
+}
+tr{
+    font-size: small;
+    font-weight: 50; 
+    text-transform: lowercase;
+
+}
+}
