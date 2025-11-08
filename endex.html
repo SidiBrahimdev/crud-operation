@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management System</title>
+    <!-- ربط ملف css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>CRUDS</h2>
+    <span class="t">PRODUCT MANAGEMENT SYSTEM</span>
+    <div class="container">
+        <br>
+        <input class="frist_input" id="title" placeholder="title">
+        <div class="sw">
+            <input onkeyup="get_total()" class="input2" id="price" type="number" placeholder="PRICE">
+            <input onkeyup="get_total()" class="input2" id="taxes" type="number" placeholder="TAXES">
+            <input onkeyup="get_total()" class="input2" id="ads" type="number" placeholder="ADS">
+            <input onkeyup="get_total()" class="input2" id="discount" type="number" placeholder="DISCOUNT">
+            <small id="total" class="de"></small>
+        </div>
+       <div class="les">
+        
+        <input  id="Count"  type="number"  placeholder="Count">
+        
+        <input  id="category" placeholder="CATEGORY">
+      
+        <button class="frf" id="submit">Create</button>
+       
+        <input  onkeyup="sercheData(this.value)" id="serche" placeholder="search">
+        
+       </div>
+        <div class="out">
+            <button onclick="getsercheMode(this.id)" id="SearchBy" class="frf">Search By Title</button>
+            <button onclick="getsercheMode(this.id)" id="SearchByCategory" class="frf">Search By Category</button>
+        </div>
+        <div id="del" class="del"></div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>PRICE</th>
+                <th>TAXES</th>
+                <th>ADS</th>
+                <th>DISCOUNT</th> 
+                <th>TOTAL</th>
+                <th>Count</th>
+                <th>CATEGORY</th>
+                <th>UPDATE</th>
+                <th>DELETE</th>
+            </tr>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+     </div>
+   
+    <script src="js.js"></script>
+</body>
+</html>
